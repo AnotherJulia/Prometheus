@@ -33,27 +33,6 @@ Prometheus requires Node.js and npm to be installed on your system.
 
    This will create a new project directory named `my-project` and install all necessary dependencies.
 
-## Project Structure
-
-After initialization, your project directory will have the following structure:
-
-```
-my-project/
-├─ node_modules/
-├─ pages/
-│  ├─ index.js
-│  ├─ _app.js
-├─ public/
-├─ styles/
-│  ├─ globals.css
-│  ├─ tailwind.css
-├─ .eslintrc.js
-├─ next.config.js
-├─ postcss.config.js
-├─ tailwind.config.js
-├─ package.json
-```
-
 ## Usage
 
 Navigate to your project directory:

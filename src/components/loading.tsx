@@ -1,7 +1,6 @@
 import React from "react";
 import MaxWidthWrapper from "./max-width-wrapper";
 import { Loader2 } from "lucide-react";
-import { ToastContainer } from "react-toastify";
 
 const LoadingScreen = () => {
   return (
