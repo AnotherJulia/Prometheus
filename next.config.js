@@ -1,5 +1,3 @@
-const { withContentlayer } = require("next-contentlayer");
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
@@ -7,15 +5,13 @@ const nextConfig = {
   distDir: "build",
   webpack(config) {
     config.resolve.fallback = {
-      // if you miss it, all the other options in fallback, specified
-      // by next.js will be dropped.
       ...config.resolve.fallback,
 
-      fs: false, // the solution
+      fs: false,
     };
 
     return config;
   },
 };
 
-module.exports = withContentlayer(nextConfig);
+module.exports = nextConfig;
